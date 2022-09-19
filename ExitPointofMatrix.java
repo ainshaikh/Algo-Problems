@@ -18,7 +18,7 @@ public class ExitPointofMatrix {
         int i = 0;
         int j = 0;
         while(true){
-            dir = (dir+arr[i][j]) % 4;
+            dir = (dir+arr[i][j]) % 4; // this gives 0 value 
 
             if(dir == 0){
                 // east direction
@@ -37,7 +37,7 @@ public class ExitPointofMatrix {
                 i--;
             }
 
-
+// for negative values
             if(i<0){
                 i++;
                 break;
