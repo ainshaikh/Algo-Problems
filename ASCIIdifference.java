@@ -6,7 +6,7 @@ public class ASCIIdifference {
         sb.append(str.charAt(0));
         for(int i=1; i<str.length(); i++){
             char curr = str.charAt(i);
-            char prev = strain.charAt(i-1);
+            char prev = str.charAt(i-1);
             int gap = curr - prev;
 
             sb.append(gap);
